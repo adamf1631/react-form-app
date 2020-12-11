@@ -1,0 +1,19 @@
+body {
+	background-color: lightcoral;
+	justify-content: center;
+	align-items: center;
+}
+.main-form {
+	display: flex;
+	flex-direction: column;
+	background-color: #cecece;
+	width: 50%;
+	border: #222 solid thin;
+}
+
+input[type="text"] {
+	width: 75%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
